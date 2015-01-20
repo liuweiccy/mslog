@@ -40,8 +40,6 @@ set(ErrorLogLevel, BaseDir, FileBaseName) ->
 
 set(BaseDir, FileBaseName) ->
     set(error, BaseDir, FileBaseName, false).
-say() ->
-	hello.
 
 
 
