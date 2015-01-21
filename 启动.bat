@@ -1,3 +1,2 @@
 cd ebin
-erl -s mslog
-pause
+erl -sname mslog_node
