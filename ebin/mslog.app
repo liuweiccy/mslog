@@ -6,4 +6,4 @@
               {mod,{mslog_app,[]}},
               {env,[]},
               {modules,[dynamic_compile,mslog,mslog_app,mslog_logger,
-                        mslog_logger_h,mslog_loglevel,mslog_sup]}]}.
+                        mslog_logger_h,mslog_loglevel,mslog_sup,test]}]}.
