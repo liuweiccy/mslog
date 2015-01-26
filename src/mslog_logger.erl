@@ -99,7 +99,7 @@ handle_info(truncate_file, State) ->
     ?TRY_CATCH(trucate_file_at_next_day()),
     {noreply, State#state{fd=File}};
 handle_info(Info, State) ->
-    ?ERROR_MSG("~ts:~w", ["未知的消息", Info]),
+    ?ERROR_MSG("~ts:~w", ["UNKONW MESSAGE", Info]),
     {noreply, State}.
 
 

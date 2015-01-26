@@ -1,2 +1,2 @@
 cd ebin
-erl -sname mslog_node
+erl -eval 'application:start(mslog)' -sname mslog_node
